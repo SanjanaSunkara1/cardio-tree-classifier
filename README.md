@@ -17,7 +17,7 @@ A mini machine learning project to **predict heart disease risk** using a Decisi
 
 - **Dataset**: `heartDisease_2020_sampling.csv` — contains relevant features for predicting cardiovascular risk. :contentReference[oaicite:2]{index=2}
 - **Purpose**: Provides a simplified, real-world-like dataset for learning classification workflows.
-- *(Optional Context)*: Decision tree models are prized for their interpretability and have been shown to achieve reasonably high accuracy (often around 80–85%) in heart disease prediction tasks. :contentReference[oaicite:3]{index=3}
+- Decision tree models are prized for their interpretability and have been shown to achieve reasonably high accuracy (often around 80–85%) in heart disease prediction tasks. 
 
 ---
 
@@ -36,7 +36,3 @@ A mini machine learning project to **predict heart disease risk** using a Decisi
 
 👩‍💻 Maintained by **Sanjana Sunkara**  
 
----
-
-Ready to expand? You could enhance this by adding CLI argument support, performance metrics, data visualization, or hyperparameter tuning. Let me know if you'd like help building those next steps!
-::contentReference[oaicite:5]{index=5}
