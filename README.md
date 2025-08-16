@@ -1,41 +1,42 @@
-# Intro to Machine Learning Starter Code
+# ​​ Cardio-Tree Classifier
 
-This is the Starter Code for the Cardiotree Classifier project. Use this code to remix this project and start from Part #1 of the Cardiotree Classifier.
-
-
-### Project Requirements
-Your project should:
-- Show the dataframe after being label encoded and one hot encoded.
-- Use at least two parameters when creating your Decision Tree.
-- Print the training accuracy score, testing accuracy score, and confusion matrix.
-- Print how a Decision Tree can be applied to a different field, and give 2-3 factors to be wary of.
-- Print a text representation of your Decision Tree through the console.
-
-
-### Extensions
-You can extend your project further by:
-- Examine feature importance
-- Create a random forest
-
-
-###  Attributions
-*If you used any code, stories, or poems from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own. 
-- Indicators of Heart Disease dataset uploaded on Kaggle by Kamil Pytlak: `https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease`
-- Add more if applicable
+A mini machine learning project to **predict heart disease risk** using a Decision Tree model. This repository is a great starter for understanding classification using health data and hands-on practice with Python and Scikit-learn. Originally created under the Girls Who Code Self-Paced Program. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## File Overview
+##  ✨ Features
 
-### ← README.md
+-  **Decision Tree Classifier** — Implements a straightforward decision tree model to predict heart disease.
+-  **Scikit-Learn Integration** — Built with `scikit-learn` for model creation, training, and evaluation.
+-  **Train/Test Split** — Divides data into training and testing sets to assess performance. :contentReference[oaicite:1]{index=1}
+-  **Reusable Helpers** — `helperfunctions.py` supports the main prediction logic in `predict.py`.
 
-README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
+---
 
-### ← main.py
-This is where you will write your main program.
+##  📊 About the Data
 
-### ← heartDisease_2020_sampling.csv
-This csv file contains data on factors of heart disease. You can learn more about this dataset in your worksheet in Part 2: https://assets.ctfassets.net/idmfh0ehr6d7/3gBpyycY5ShWzLSG3GuH2K/cb483e835f1d29eeaa74d29d1453a9b8/Intro_to_Machine_Learning_Worksheets.pdf
+- **Dataset**: `heartDisease_2020_sampling.csv` — contains relevant features for predicting cardiovascular risk. :contentReference[oaicite:2]{index=2}
+- **Purpose**: Provides a simplified, real-world-like dataset for learning classification workflows.
+- *(Optional Context)*: Decision tree models are prized for their interpretability and have been shown to achieve reasonably high accuracy (often around 80–85%) in heart disease prediction tasks. :contentReference[oaicite:3]{index=3}
 
-### ← GWCutilities.py
-This file contains helper functions you can call in main.py.
+---
+
+##  🧩 Extensions & Tools Used
+
+- **Python 3** — primary language for scripts.
+- **scikit-learn** — building and using the Decision Tree model.
+- **pandas + numpy** — for data handling and manipulation.
+- **Poetry or pip** — use either dependency manager or plain venv setup.
+- **CSV files** — lightweight data format for training and testing.
+- **Girls Who Code Self-Paced Program** — this structure and approach comes from that curriculum. :contentReference[oaicite:4]{index=4}
+
+---
+
+##  Maintainer
+
+👩‍💻 Maintained by **Sanjana Sunkara**  
+
+---
+
+Ready to expand? You could enhance this by adding CLI argument support, performance metrics, data visualization, or hyperparameter tuning. Let me know if you'd like help building those next steps!
+::contentReference[oaicite:5]{index=5}
